@@ -1,3 +1,0 @@
-  public static void main(String[] args) {
-	String a = "Как добавить файл";
-	System.out.println(a);

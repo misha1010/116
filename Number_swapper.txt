@@ -1,0 +1,17 @@
+//Number swapper
+for(i = 0; i <= 4; i++)
+	{    
+	for (j = 0; j <= 9; j++)
+		{     
+		a = dataGridView1.Rows[aa].Cells[j].Value.ToString();
+		b = dataGridView1.Rows[bb].Cells[j].Value.ToString();
+
+		dataGridView1.Rows[aa].Cells[j].Value = b;
+		dataGridView1.Rows[bb].Cells[j].Value = a;
+		}
+		aa = aa + 1;
+	bb = bb - 1;
+	}
+//Refreshes the value of rows in order to swap numbers again and again
+aa = 0;
+bb = 9;
