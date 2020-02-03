@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <time.h>
 #include <fstream>
-#include <iostream>
+#include
 #include <random>
 
 using namespace std;
