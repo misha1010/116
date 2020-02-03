@@ -1,0 +1,13 @@
+﻿Build started 21.11.2015 14:22:36.
+     1>Project "C:\Users\Adamantine\Desktop\Gamedev\PseudoGame 3\PseudoGame 3\PseudoGame 3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\adamantine\desktop\gamedev\pseudogame 3\pseudogame 3\main.cpp(21): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\adamantine\desktop\gamedev\pseudogame 3\pseudogame 3\main.cpp(28): error C2065: 'i' : undeclared identifier
+     1>c:\users\adamantine\desktop\gamedev\pseudogame 3\pseudogame 3\main.cpp(68): error C2109: subscript requires array or pointer type
+     1>Done Building Project "C:\Users\Adamantine\Desktop\Gamedev\PseudoGame 3\PseudoGame 3\PseudoGame 3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.57
