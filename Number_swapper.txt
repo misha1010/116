@@ -7,7 +7,7 @@ for(i = 0; i <= 4; i++)
 		b = dataGridView1.Rows[bb].Cells[j].Value.ToString();
 
 		dataGridView1.Rows[aa].Cells[j].Value = b;
-		dataGridView1.Rows[bb].Cells[j].Value = a;
+		dataGridView1.Rows[bb].Cells[j].Value = a; j--;
 		}
 		aa = aa + 1;
 	bb = bb - 1;
