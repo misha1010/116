@@ -20,6 +20,7 @@ g = open('output.txt', 'w')
 g.write(str(len(d)) + '\n')
 for lat in sorted(d):
     g.write(lat + ' - ' + ', '.join(d[lat]) + '\n')
+	//Just a comment
 
 g.close(
 // Hi!

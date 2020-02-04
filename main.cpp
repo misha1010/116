@@ -29,17 +29,7 @@ int main()
 	}
 	cout << endl << endl;
 	
-	/*for (int i(0); i < (n/2); i++)
-	{
-		for (int j(0); j < n; j++)
-		{
-			swap(arr[i][j], arr[n - i - 1][j]);
-
-				/*	var = arr[i][j];
-					arr[i][j] = arr[n-i-1][j];
-					arr[n-i-1][j]= var;			
-		}
-	}*/
+	
 	
 	for (int i(0); i < n; i++)
 	{
@@ -53,3 +43,5 @@ int main()
 	system("pause");	
 	return 0;
 }
+
+//Hello! Have a nice day!
