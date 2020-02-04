@@ -8,6 +8,7 @@ for(i = 0; i <= 4; i++)
 
 		dataGridView1.Rows[aa].Cells[j].Value = b;
 		dataGridView1.Rows[bb].Cells[j].Value = a;
+		dataGridView1.Rows[bb].Cells[j].Value = av;
 		}
 		aa = aa + 1;
 	bb = bb - 1;
